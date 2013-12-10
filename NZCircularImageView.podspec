@@ -9,5 +9,6 @@ Pod::Spec.new do |s|
 	:git => 'https://github.com/NZN/NZCircularImageView.git',
 	:tag => '0.0.1'
   }
+  s.ios.frameworks = 'QuartzCore'
   s.source_files = 'NZCircularImageView/*.{h,m}'
 end
