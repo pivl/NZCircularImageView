@@ -41,7 +41,7 @@ This class also uses `UIViewContentModeScaleAspectFill` contentMode with the `cl
 ```objective-c
 // setting a rounded avatar image
 circularImageView.image = [UIImage imageNamed:@"Default-Avatar"];
-//
+
 // async download image from view
 //
 // this method append some parameters at url:
@@ -51,16 +51,14 @@ circularImageView.image = [UIImage imageNamed:@"Default-Avatar"];
 [circularImageView setImageWithResizeURL:@"http://example.com/image.pg"];
 //
 // ... with custom loading indicator
-[self.imageView setImageWithResizeURL:kImageUrl usingActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
-//
-// ... with custom loading indicator
-[self.imageView setImageWithResizeURL:kImageUrl usingActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
+[circularImageView setImageWithResizeURL:kImageUrl
+             usingActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
 //
 // ... with completion block
-[self.imageView setImageWithResizeURL:kImageUrl
-              usingActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite
-                                completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType) {
-                                    NSLog(@"%s\nDownload completed", __PRETTY_FUNCTION__);
+[circularImageView setImageWithResizeURL:kImageUrl
+             usingActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite
+                               completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType) {
+                                    NSLog(@"Download completed");
               }];
 ```
 
