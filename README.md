@@ -1,5 +1,9 @@
 #NZCircularImageView
 
+<p align="center">
+  <img src="http://s23.postimg.org/8wnsherxn/image.gif" alt="NZCircularImageView" title="NZCircularImageView" width="250" height="250">
+</p>
+
 NZCircularImageView is a UIImageView extension. Its performs async download image and leaves with rounded edge.
 
 It can be used, for example, to presenting pictures of user profiles.
