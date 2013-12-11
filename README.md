@@ -48,7 +48,7 @@ circularImageView.image = [UIImage imageNamed:@"Default-Avatar"];
 // - width: image view width
 // - height: image view height
 // - mode: crop (crop image from center)
-[circularImageView setImageWithResizeURL:@"http://example.com/image.pg"];
+[circularImageView setImageWithResizeURL:@"http://example.com/image.png"];
 //
 // ... with custom loading indicator
 [circularImageView setImageWithResizeURL:kImageUrl
