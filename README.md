@@ -2,7 +2,7 @@
 
 NZCircularImageView is a UIImageView extension. Its performs async download image and leaves with rounded edge.
 
-It can be used, for example, for presenting pictures of user profiles.
+It can be used, for example, to presenting pictures of user profiles.
 
 ## Requirements
 
