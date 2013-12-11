@@ -9,7 +9,7 @@
 #import "NZViewController.h"
 #import "NZCircularImageView.h"
 
-static NSString* const kImageUrl = @"http://www.falaturista.com.br/blog/wp-content/uploads/2010/07/jardim-botanico-curitiba.jpg";
+static NSString* const kImageUrl = @"http://s13.postimg.org/daarzj713/parque_barigui.jpg";
 
 @interface NZViewController ()
 
