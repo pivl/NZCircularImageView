@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   
   s.authors = { 'Bruno Tortato Furtado' => 'bruno.furtado@gruponzn.com' }
   
+  s.dependency 'UIActivityIndicator-for-SDWebImage', '~> 1.0.3'
   s.ios.frameworks = 'QuartzCore'
   s.source_files = 'NZCircularImageView/*.{h,m}'
   s.source = { :git => 'https://github.com/NZN/NZCircularImageView.git', :tag => '0.0.2' }  
