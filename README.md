@@ -12,7 +12,7 @@ It can be used, for example, to presenting pictures of user profiles.
 
 ## Requirements
 
-NZCircularImageView works on any iOS version and is compatible with both ARC and non-ARC projects. It depends on the following Apple frameworks, which should already be included with most Xcode templates:
+NZCircularImageView works on iOS 5.0+ version and is compatible with ARC projects. It depends on the following Apple frameworks, which should already be included with most Xcode templates:
 
 * Foundation.framework
 * QuartzCore.framework
@@ -27,7 +27,7 @@ NZCircularImageView uses [SDWebImage](https://github.com/rs/SDWebImage) and [UIA
 
 [CocoaPods](http://cocoapods.org) is the recommended way to add NZCircularImageView to your project.
 
-* Add a pod entry for NZCircularImageView to your Podfile `pod 'NZCircularImageView', '~> 0.0.1'`
+* Add a pod entry for NZCircularImageView to your Podfile `pod 'NZCircularImageView', :git => 'https://github.com/NZN/NZCircularImageView'`
 * Install the pod(s) by running `pod install`.
 
 ### Source files
@@ -35,7 +35,7 @@ NZCircularImageView uses [SDWebImage](https://github.com/rs/SDWebImage) and [UIA
 Alternatively you can directly add source files to your project.
 
 1. Download the [latest code version](https://github.com/NZN/NZCircularImageView/archive/master.zip) or add the repository as a git submodule to your git-tracked project.
-2. Open your project in Xcode, then drag and drop all files at NZCircularImageView folder onto your project (use the "Product Navigator view"). Make sure to select Copy items when asked if you extracted the code archive outside of your project.
+2. Open your project in Xcode, then drag and drop all files at `NZCircularImageView` folder onto your project (use the "Product Navigator view"). Make sure to select Copy items when asked if you extracted the code archive outside of your project.
 3. Install [SDWebImage](https://github.com/rs/SDWebImage)
 4. Install [UIActivityIndicator-for-SDWebImage](https://github.com/JJSaccolo/UIActivityIndicator-for-SDWebImage)
 
@@ -44,13 +44,22 @@ Alternatively you can directly add source files to your project.
 The class overrides `-(void)setFrame:`, thus ensuring that every time an image is set, it will be presented in a rounded shape.
 This class also uses `UIViewContentModeScaleAspectFill` contentMode with the `clipsToBounds` flag so that the image resolution is not changed.
 
-```objective-c
-// setting a rounded avatar image
-circularImageView.image = [UIImage imageNamed:@"Default-Avatar"];
+* Setting at Storyboard to automatic rounded image
 
-// async download image from view
-//
-// this method append some parameters at url:
+<p align="center">
+  <img src="http://s28.postimg.org/dkc2r8tgd/NZCircular_Image_View.jpg" alt="NZCircularImageView" title="NZCircularImageView" width="500" height="350">
+</p>
+
+* Setting a rounded avatar image
+
+```objective-c
+circularImageView.image = [UIImage imageNamed:@"Default-Avatar"];
+```
+
+* Async download image
+
+```objective-c
+// this method append parameters at url:
 // - width: image view width
 // - height: image view height
 // - mode: crop (crop image from center)
