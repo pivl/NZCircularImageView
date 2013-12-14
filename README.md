@@ -16,6 +16,7 @@ NZCircularImageView works on iOS 5.0+ version and is compatible with ARC project
 
 * Foundation.framework
 * QuartzCore.framework
+* UIKit.framework
 
 You will need LLVM 3.0 or later in order to build NZCircularImageView.
 
