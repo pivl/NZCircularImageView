@@ -27,7 +27,7 @@ NZCircularImageView uses [SDWebImage](https://github.com/rs/SDWebImage) and [UIA
 
 [CocoaPods](http://cocoapods.org) is the recommended way to add NZCircularImageView to your project.
 
-* Add a pod entry for NZCircularImageView to your Podfile `pod 'NZCircularImageView', :git => 'https://github.com/NZN/NZCircularImageView'`
+* Add a pod entry for NZCircularImageView to your Podfile `pod 'NZCircularImageView', '~> 0.0.2'`
 * Install the pod(s) by running `pod install`.
 
 ### Source files
