@@ -9,6 +9,8 @@ NZCircularImageView is a UIImageView extension. Its performs async download imag
 It can be used, for example, to presenting pictures of user profiles.
 
 [![Build Status](https://api.travis-ci.org/NZN/NZCircularImageView.png)](https://api.travis-ci.org/NZN/NZCircularImageView.png)
+[![Cocoapods](https://cocoapod-badges.herokuapp.com/v/NZCircularImageView/badge.png)](http://beta.cocoapods.org/?q=name%3Anzcircularimageview%2A)
+[![Cocoapods](https://cocoapod-badges.herokuapp.com/p/NZCircularImageView/badge.png)](http://beta.cocoapods.org/?q=name%3Anzcircularimageview%2A)
 
 ## Requirements
 
