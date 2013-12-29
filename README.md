@@ -1,4 +1,4 @@
-#NZCircularImageView
+#NZCircularImageView ![License MIT](https://go-shields.herokuapp.com/license-MIT-blue.png)
 
 <p align="center">
   <img src="http://s23.postimg.org/8wnsherxn/image.gif" alt="NZCircularImageView" title="NZCircularImageView" width="260" height="260">
