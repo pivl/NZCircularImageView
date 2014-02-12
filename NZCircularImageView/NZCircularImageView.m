@@ -66,10 +66,10 @@
     return self;
 }
 
-- (void)setFrame:(CGRect)frame
+- (void)layoutSubviews
 {
-    [super setFrame:frame];
-    [self addMaskToBounds:frame];
+    [super layoutSubviews];
+    [self addMaskToBounds:self.frame];
 }
 
 #pragma mark -
