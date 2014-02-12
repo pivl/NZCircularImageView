@@ -89,3 +89,7 @@ This code is distributed under the terms and conditions of the [MIT license](LIC
 ## Change-log
 
 A brief summary of each NZCircularImageView release can be found on the [wiki](https://github.com/NZN/NZCircularImageView/wiki/Change-log).
+
+## To-do Items
+
+- Submit pull request from 0.0.3
