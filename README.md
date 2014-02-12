@@ -14,7 +14,7 @@ It can be used, for example, to presenting pictures of user profiles.
 
 ## Requirements
 
-NZCircularImageView works on iOS 5.0+ version and is compatible with ARC projects. It depends on the following Apple frameworks, which should already be included with most Xcode templates:
+NZCircularImageView works on iOS 6.0+ version and is compatible with ARC projects. It depends on the following Apple frameworks, which should already be included with most Xcode templates:
 
 * Foundation.framework
 * QuartzCore.framework
@@ -30,7 +30,7 @@ NZCircularImageView uses [SDWebImage](https://github.com/rs/SDWebImage) and [UIA
 
 [CocoaPods](http://cocoapods.org) is the recommended way to add NZCircularImageView to your project.
 
-* Add a pod entry for NZCircularImageView to your Podfile `pod 'NZCircularImageView', '~> 0.0.2'`
+* Add a pod entry for NZCircularImageView to your Podfile `pod 'NZCircularImageView'`
 * Install the pod(s) by running `pod install`.
 
 ### Source files
