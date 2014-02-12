@@ -92,4 +92,4 @@ A brief summary of each NZCircularImageView release can be found on the [wiki](h
 
 ## To-do Items
 
-- Submit pull request from 0.0.3
+- Submit pull to [Cocoa/Specs](https://github.com/CocoaPods/Specs) request from 0.0.3
