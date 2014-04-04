@@ -169,6 +169,8 @@
 
         [self.layer addSublayer:shape];
     }
+
+    CGPathRelease(maskPath);
 }
 
 - (void)setup
