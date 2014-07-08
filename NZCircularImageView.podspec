@@ -6,12 +6,11 @@ Pod::Spec.new do |s|
   s.homepage	 = 'https://github.com/NZN/NZCircularImageView'
   
   s.requires_arc = true
-  s.platform = :ios
-  s.ios.deployment_target = '6.0'
+  s.platform = :ios, '5.0'
   
   s.authors = { 'Bruno Tortato Furtado' => 'bruno.furtado@gruponzn.com' }
   
-  s.dependency 'UIActivityIndicator-for-SDWebImage', '~> 1.0.3'
+  s.dependency 'UIActivityIndicator-for-SDWebImage', '~> 1.0.5'
   s.ios.frameworks = 'QuartzCore'
   s.source_files = 'NZCircularImageView/*.{h,m}'
   s.source = { :git => 'https://github.com/NZN/NZCircularImageView.git', :tag => '0.0.4' }  
