@@ -39,6 +39,6 @@
 
 - (void)setImageWithResizeURL:(NSString *)stringUrl
   usingActivityIndicatorStyle:(UIActivityIndicatorViewStyle)activityStyle
-                    completed:(SDWebImageCompletedBlock)completedBlock;
+                    completed:(SDWebImageCompletionBlock)completedBlock;
 
 @end
