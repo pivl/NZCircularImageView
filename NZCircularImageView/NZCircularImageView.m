@@ -104,7 +104,7 @@
     [self setImageWithResizeURL:stringUrl usingActivityIndicatorStyle:activityStyle completed:nil];
 }
 
-- (void)setImageWithResizeURL:(NSString *)stringUrl usingActivityIndicatorStyle:(UIActivityIndicatorViewStyle)activityStyle completed:(SDWebImageCompletedBlock)completedBlock
+- (void)setImageWithResizeURL:(NSString *)stringUrl usingActivityIndicatorStyle:(UIActivityIndicatorViewStyle)activityStyle completed:(SDWebImageCompletionBlock)completedBlock
 {
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:stringUrl]];
     
